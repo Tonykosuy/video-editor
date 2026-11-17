@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>TP. Hồ Chí Minh — Video Giới Thiệu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root {
+        --bg-deep: #0b1020;
+        --bg-card: #111827;
+        --border-subtle: #1e293b;
+        --text-primary: #f8fafc;
+        --text-secondary: #cbd5e1;
+        --accent-gold: #fbbf24;
+        --accent-sky: #38bdf8;
+        --badge-bg: #1e293b;
+        --badge-text: #fef3c7;
+        --font-main: "Be Vietnam Pro", system-ui, -apple-system, sans-serif;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: var(--bg-deep);
+        color: var(--text-primary);
+        font-family: var(--font-main);
+      }
+
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        background: radial-gradient(circle at 50% 25%, #172554 0%, #0b1020 65%, #060913 100%);
+        overflow: hidden;
+      }
+
+      .ambient-grid {
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(to right, rgba(56, 189, 248, 0.05) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(56, 189, 248, 0.05) 1px, transparent 1px);
+        background-size: 96px 96px;
+        pointer-events: none;
+      }
+
+      .clip {
+        position: absolute;
+        inset: 0;
+        width: 1920px;
+        height: 1080px;
+      }
+
+      /* Scene 1: Hero */
+      #scene-hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 80px 120px 260px 120px;
+        text-align: center;
+      }
+
+      #hero-badge {
+        display: inline-block;
+        padding: 14px 32px;
+        border-radius: 999px;
+        background: var(--badge-bg);
+        border: 2px solid #f59e0b;
+        color: var(--badge-text);
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        margin-bottom: 40px;
+      }
+
+      #hero-title {
+        font-size: 132px;
+        font-weight: 800;
+        line-height: 1.08;
+        letter-spacing: -0.02em;
+        color: var(--text-primary);
+        margin-bottom: 28px;
+      }
+
+      #hero-accent-line {
+        width: 240px;
+        height: 6px;
+        border-radius: 999px;
+        background: linear-gradient(90deg, var(--accent-gold), var(--accent-sky));
+        margin-bottom: 32px;
+      }
+
+      #hero-subtitle {
+        font-size: 40px;
+        font-weight: 500;
+        color: var(--text-secondary);
+        max-width: 1200px;
+        line-height: 1.4;
+      }
+
+      #skyline-wrap {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 360px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        pointer-events: none;
+      }
+
+      /* Scene 2: Highlights Cards */
+      #scene-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 96px 120px;
+      }
+
+      #cards-header {
+        margin-bottom: 64px;
+      }
+
+      #cards-kicker {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        color: var(--accent-gold);
+        margin-bottom: 16px;
+      }
+
+      #cards-title {
+        font-size: 68px;
+        font-weight: 800;
+        color: var(--text-primary);
+        letter-spacing: -0.02em;
+      }
+
+      .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 44px;
+        width: 100%;
+      }
+
+      .feature-card {
+        background: var(--bg-card);
+        border: 2px solid var(--border-subtle);
+        border-radius: 28px;
+        padding: 52px 44px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 440px;
+      }
+
+      .card-tag {
+        display: inline-block;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        margin-bottom: 28px;
+      }
+
+      .card-tag-gold {
+        color: var(--accent-gold);
+      }
+
+      .card-tag-sky {
+        color: var(--accent-sky);
+      }
+
+      .card-heading {
+        font-size: 40px;
+        font-weight: 800;
+        color: var(--text-primary);
+        margin-bottom: 24px;
+        line-height: 1.25;
+      }
+
+      .card-body {
+        font-size: 30px;
+        font-weight: 400;
+        color: var(--text-secondary);
+        line-height: 1.5;
+      }
+
+      .card-bar {
+        width: 84px;
+        height: 6px;
+        border-radius: 999px;
+        margin-top: 36px;
+      }
+
+      .bar-gold {
+        background: var(--accent-gold);
+      }
+
+      .bar-sky {
+        background: var(--accent-sky);
+      }
+
+      /* Scene 3: Metrics & Outro */
+      #scene-outro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 96px 120px;
+        gap: 72px;
+      }
+
+      .stats-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 48px;
+        width: 100%;
+      }
+
+      .stat-box {
+        background: var(--bg-card);
+        border: 2px solid var(--border-subtle);
+        border-radius: 28px;
+        padding: 56px 40px;
+        text-align: center;
+      }
+
+      .stat-value {
+        font-size: 104px;
+        font-weight: 800;
+        line-height: 1.05;
+        margin-bottom: 20px;
+      }
+
+      .stat-gold {
+        color: var(--accent-gold);
+      }
+
+      .stat-sky {
+        color: var(--accent-sky);
+      }
+
+      .stat-label {
+        font-size: 32px;
+        font-weight: 600;
+        color: var(--text-primary);
+        line-height: 1.35;
+      }
+
+      #outro-cta {
+        background: var(--bg-card);
+        border: 3px solid var(--accent-gold);
+        border-radius: 24px;
+        padding: 40px 72px;
+        text-align: center;
+      }
+
+      #outro-cta-title {
+        font-size: 52px;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        color: var(--badge-text);
+        margin-bottom: 12px;
+      }
+
+      #outro-cta-sub {
+        font-size: 30px;
+        font-weight: 500;
+        color: var(--accent-sky);
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="10"
+      data-width="1920"
+      data-height="1080"
+    >
+      <div class="ambient-grid"></div>
+
+      <audio
+        id="bgm-audio"
+        src="assets/bgm.mp3"
+        data-start="0"
+        data-duration="10"
+        data-volume="0.6"
+        data-fade-in="0.5"
+        data-fade-out="1.2"
+      ></audio>
+
+      <!-- Scene 1: Hero (0.0s - 3.4s) -->
+      <section id="scene-hero" class="clip" data-start="0" data-duration="3.4" data-track-index="0">
+        <div id="hero-badge">VIỆT NAM · 10°46'N 106°42'E · TỪ 1698</div>
+        <h1 id="hero-title">TP. HỒ CHÍ MINH</h1>
+        <div id="hero-accent-line"></div>
+        <p id="hero-subtitle">Trái tim kinh tế, văn hóa &amp; sáng tạo không ngủ</p>
+
+        <div id="skyline-wrap">
+          <svg
+            id="skyline-svg"
+            width="1920"
+            height="320"
+            viewBox="0 0 1920 320"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- Ground horizon line -->
+            <rect x="0" y="310" width="1920" height="10" fill="#1E293B" />
+
+            <!-- Left city blocks -->
+            <rect x="90" y="210" width="76" height="100" fill="#111827" stroke="#334155" stroke-width="2" />
+            <rect x="180" y="175" width="90" height="135" fill="#111827" stroke="#334155" stroke-width="2" />
+            <rect x="286" y="230" width="68" height="80" fill="#111827" stroke="#334155" stroke-width="2" />
+
+            <!-- Ben Thanh Clock Tower Silhouette -->
+            <g id="ben-thanh">
+              <rect x="405" y="220" width="210" height="90" fill="#111827" stroke="#F59E0B" stroke-width="2" />
+              <rect x="475" y="145" width="70" height="75" fill="#111827" stroke="#F59E0B" stroke-width="2" />
+              <polygon points="470,145 510,112 550,145" fill="#F59E0B" />
+              <circle cx="510" cy="182" r="16" fill="#0B1020" stroke="#FBBF24" stroke-width="3" />
+              <line x1="510" y1="182" x2="510" y2="171" stroke="#FBBF24" stroke-width="2.5" />
+              <line x1="510" y1="182" x2="519" y2="186" stroke="#FBBF24" stroke-width="2.5" />
+            </g>
+
+            <!-- Mid blocks -->
+            <rect x="650" y="195" width="84" height="115" fill="#111827" stroke="#334155" stroke-width="2" />
+            <rect x="750" y="165" width="70" height="145" fill="#111827" stroke="#334155" stroke-width="2" />
+
+            <!-- Bitexco Financial Tower Silhouette (Lotus Bud + Helipad) -->
+            <g id="bitexco">
+              <path
+                d="M895 310 L912 95 C916 74 958 70 976 92 L995 310 Z"
+                fill="#111827"
+                stroke="#38BDF8"
+                stroke-width="2.5"
+              />
+              <rect x="974" y="138" width="46" height="9" rx="4" fill="#38BDF8" />
+              <line x1="928" y1="130" x2="972" y2="130" stroke="#38BDF8" stroke-width="1.5" opacity="0.6" />
+              <line x1="924" y1="175" x2="978" y2="175" stroke="#38BDF8" stroke-width="1.5" opacity="0.6" />
+              <line x1="919" y1="220" x2="984" y2="220" stroke="#38BDF8" stroke-width="1.5" opacity="0.6" />
+            </g>
+
+            <!-- Mid-right blocks -->
+            <rect x="1060" y="205" width="90" height="105" fill="#111827" stroke="#334155" stroke-width="2" />
+            <rect x="1168" y="170" width="82" height="140" fill="#111827" stroke="#334155" stroke-width="2" />
+
+            <!-- Landmark 81 Tiered Spire Silhouette -->
+            <g id="landmark-81">
+              <rect x="1310" y="210" width="26" height="100" fill="#111827" stroke="#FBBF24" stroke-width="2" />
+              <rect x="1336" y="155" width="26" height="155" fill="#111827" stroke="#FBBF24" stroke-width="2" />
+              <rect x="1362" y="88" width="26" height="222" fill="#111827" stroke="#FBBF24" stroke-width="2" />
+              <rect x="1388" y="42" width="24" height="268" fill="#111827" stroke="#FBBF24" stroke-width="2.5" />
+              <rect x="1412" y="110" width="26" height="200" fill="#111827" stroke="#FBBF24" stroke-width="2" />
+              <rect x="1438" y="175" width="26" height="135" fill="#111827" stroke="#FBBF24" stroke-width="2" />
+              <line x1="1400" y1="42" x2="1400" y2="12" stroke="#FBBF24" stroke-width="3" />
+              <circle cx="1400" cy="12" r="4" fill="#FBBF24" />
+            </g>
+
+            <!-- Right city blocks -->
+            <rect x="1510" y="190" width="88" height="120" fill="#111827" stroke="#334155" stroke-width="2" />
+            <rect x="1615" y="160" width="96" height="150" fill="#111827" stroke="#334155" stroke-width="2" />
+            <rect x="1728" y="215" width="92" height="95" fill="#111827" stroke="#334155" stroke-width="2" />
+          </svg>
+        </div>
+      </section>
+
+      <!-- Scene 2: Highlights Cards (3.4s - 6.8s) -->
+      <section id="scene-cards" class="clip" data-start="3.4" data-duration="3.4" data-track-index="0">
+        <div id="cards-header">
+          <div id="cards-kicker">BẢN SẮC PHƯƠNG NAM</div>
+          <h2 id="cards-title">GIAO THOA DI SẢN &amp; HIỆN ĐẠI</h2>
+        </div>
+
+        <div class="cards-grid">
+          <article id="card-1" class="feature-card">
+            <div>
+              <div class="card-tag card-tag-gold">01 · HIỆN ĐẠI</div>
+              <h3 class="card-heading">Đô Thị Vươn Tầm</h3>
+              <p class="card-body">Landmark 81, Bitexco &amp; Metro.</p>
+            </div>
+            <div class="card-bar bar-gold"></div>
+          </article>
+
+          <article id="card-2" class="feature-card">
+            <div>
+              <div class="card-tag card-tag-sky">02 · DI SẢN</div>
+              <h3 class="card-heading">Dấu Ấn 300 Năm</h3>
+              <p class="card-body">Chợ Bến Thành &amp; Đức Bà.</p>
+            </div>
+            <div class="card-bar bar-sky"></div>
+          </article>
+
+          <article id="card-3" class="feature-card">
+            <div>
+              <div class="card-tag card-tag-gold">03 · SÔI ĐỘNG</div>
+              <h3 class="card-heading">Nhịp Sống 24/7</h3>
+              <p class="card-body">Cà phê &amp; ẩm thực phố.</p>
+            </div>
+            <div class="card-bar bar-gold"></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Scene 3: Metrics & Outro (6.8s - 10.0s) -->
+      <section id="scene-outro" class="clip" data-start="6.8" data-duration="3.2" data-track-index="0">
+        <div class="stats-row">
+          <div id="stat-1" class="stat-box">
+            <div class="stat-value stat-gold">10M+</div>
+            <div class="stat-label">Cư dân năng động</div>
+          </div>
+
+          <div id="stat-2" class="stat-box">
+            <div class="stat-value stat-sky">#1</div>
+            <div class="stat-label">Trung tâm kinh tế</div>
+          </div>
+
+          <div id="stat-3" class="stat-box">
+            <div class="stat-value stat-gold">24/7</div>
+            <div class="stat-label">Sức sống bất tận</div>
+          </div>
+        </div>
+
+        <div id="outro-cta">
+          <div id="outro-cta-title">KHÁM PHÁ TP. HỒ CHÍ MINH</div>
+          <div id="outro-cta-sub">Đô thị sáng tạo &amp; hội nhập</div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      const tl = gsap.timeline({ paused: true });
+
+      // Scene 1 (0.0s -> 3.4s) - Start visible at t=0 for thumbnail clarity
+      tl.fromTo(
+        "#hero-badge",
+        { opacity: 0.9, y: 12 },
+        { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" },
+        0
+      )
+        .fromTo(
+          "#hero-title",
+          { opacity: 0.95, y: 18, scale: 0.98 },
+          { opacity: 1, y: 0, scale: 1, duration: 0.55, ease: "power3.out" },
+          0
+        )
+        .fromTo(
+          "#hero-accent-line",
+          { opacity: 0.85, scaleX: 0.4 },
+          { opacity: 1, scaleX: 1, duration: 0.5, ease: "power2.out" },
+          0
+        )
+        .fromTo(
+          "#hero-subtitle",
+          { opacity: 0.85, y: 16 },
+          { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" },
+          0
+        )
+        .fromTo(
+          "#skyline-wrap",
+          { opacity: 0.85, y: 24 },
+          { opacity: 1, y: 0, duration: 0.65, ease: "power3.out" },
+          0
+        )
+        .to(
+          "#scene-hero",
+          { opacity: 0, y: -24, duration: 0.3, ease: "power2.in" },
+          3.05
+        );
+
+      // Scene 2 (3.4s -> 6.8s)
+      tl.fromTo(
+        "#cards-header",
+        { opacity: 0, y: 24 },
+        { opacity: 1, y: 0, duration: 0.35, ease: "power3.out" },
+        3.42
+      )
+        .fromTo(
+          "#card-1",
+          { opacity: 0, y: 32 },
+          { opacity: 1, y: 0, duration: 0.35, ease: "power3.out" },
+          3.48
+        )
+        .fromTo(
+          "#card-2",
+          { opacity: 0, y: 32 },
+          { opacity: 1, y: 0, duration: 0.35, ease: "power3.out" },
+          3.56
+        )
+        .fromTo(
+          "#card-3",
+          { opacity: 0, y: 32 },
+          { opacity: 1, y: 0, duration: 0.35, ease: "power3.out" },
+          3.64
+        )
+        .to(
+          "#scene-cards",
+          { opacity: 0, y: -20, duration: 0.28, ease: "power2.in" },
+          6.5
+        );
+
+      // Scene 3 (6.8s -> 10.0s)
+      tl.fromTo(
+        "#stat-1",
+        { opacity: 0, y: 28, scale: 0.96 },
+        { opacity: 1, y: 0, scale: 1, duration: 0.35, ease: "power3.out" },
+        6.82
+      )
+        .fromTo(
+          "#stat-2",
+          { opacity: 0, y: 28, scale: 0.96 },
+          { opacity: 1, y: 0, scale: 1, duration: 0.35, ease: "power3.out" },
+          6.9
+        )
+        .fromTo(
+          "#stat-3",
+          { opacity: 0, y: 28, scale: 0.96 },
+          { opacity: 1, y: 0, scale: 1, duration: 0.35, ease: "power3.out" },
+          6.98
+        )
+        .fromTo(
+          "#outro-cta",
+          { opacity: 0, y: 24, scale: 0.97 },
+          { opacity: 1, y: 0, scale: 1, duration: 0.4, ease: "power3.out" },
+          7.02
+        );
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

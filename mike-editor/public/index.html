@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mike Editor Pro 4.0 — Studio Dựng Video & Kho 1.200+ Mẫu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Audiowide&family=Bangers&family=Barlow+Condensed:wght@400;700;800&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,600;0,800;1,700&family=Caveat:wght@400;700&family=Chakra+Petch:ital,wght@0,400;0,700;1,700&family=Comfortaa:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,700;1,700&family=Dancing+Script:wght@400;700&family=Exo+2:wght@400;700;800&family=Fira+Code:wght@400;700&family=Fredoka:wght@400;700&family=IBM+Plex+Mono:wght@400;700&family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,700&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,300;0,600;0,800;1,700&family=Nunito:wght@400;700;800&family=Orbitron:wght@400;700;800&family=Oswald:wght@400;700&family=Pacifico&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Plus+Jakarta+Sans:wght@400;700;800&family=Quicksand:wght@400;600;700&family=Righteous&family=Roboto+Slab:wght@400;700&family=Saira+Condensed:wght@400;700;800&family=Source+Code+Pro:wght@400;700&family=Space+Grotesk:wght@400;700&family=Space+Mono:wght@400;700&family=Varela+Round&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <!-- TOP HEADER -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <div class="brand-mark">
+          <span class="brand-badge">PRO 4.0</span>
+          <span class="brand-title">Mike Editor</span>
+        </div>
+        <div class="project-meta">
+          <input id="project-title-input" class="project-title-input" type="text" value="Dự án mới — Mike Editor Pro 4.0" title="Đổi tên dự án" />
+          <span id="shot-indicator" class="meta-pill">0 Cảnh</span>
+        </div>
+      </div>
+
+      <div class="topbar-center">
+        <div class="aspect-switcher" id="aspect-switcher" title="Tỷ lệ khung hình xuất video">
+          <button class="aspect-btn active" data-ratio="9:16">9:16</button>
+          <button class="aspect-btn" data-ratio="16:9">16:9</button>
+          <button class="aspect-btn" data-ratio="1:1">1:1</button>
+          <button class="aspect-btn" data-ratio="4:5">4:5</button>
+        </div>
+        <div class="topbar-divider"></div>
+        <button class="btn-chip" id="btn-storyboard" title="Quản lý kịch bản phân cảnh">🎬 Storyboard</button>
+        <button class="btn-chip" id="btn-brand" title="Cài đặt bảng màu thương hiệu">🎨 Màu chủ đạo</button>
+        <button class="btn-chip accent" id="btn-import-modal" title="Tải video/SFX lên hoặc nhập từ TikTok/YouTube">➕ Thêm Media / URL</button>
+      </div>
+
+      <div class="topbar-right">
+        <button class="btn-icon" id="btn-theme" title="Chuyển Dark Studio / Light Pastel">☀️</button>
+        <button class="btn-icon" id="btn-undo" title="Hoàn tác (Ctrl+Z)">↩️</button>
+        <button class="btn-icon" id="btn-redo" title="Làm lại (Ctrl+Y)">↪️</button>
+        <button class="btn-chip" id="btn-history" title="Lịch sử phiên bản">🕒 Lịch sử</button>
+        <button class="btn-chip" id="btn-reset" title="Tạo lại dự án trống hoàn toàn">🧹 Dự án trống</button>
+        <button class="btn-chip success" id="btn-save" title="Lưu dự án (Ctrl+S)">💾 Lưu</button>
+        <button class="btn-export" id="btn-export">🚀 Xuất Video MP4</button>
+      </div>
+    </header>
+
+    <!-- MAIN 3-COLUMN STUDIO -->
+    <main class="workspace">
+      <!-- LEFT RAIL + LIBRARY DRAWER -->
+      <aside class="left-panel">
+        <nav class="rail-nav" id="rail-nav">
+          <button class="rail-btn active" data-tab="media" title="Quản lý Tài nguyên Video, Nhạc, Ảnh">
+            <span class="rail-ico">📁</span>
+            <span class="rail-lbl">Tài nguyên</span>
+          </button>
+          <button class="rail-btn" data-tab="sfx" title="200 Hiệu ứng âm thanh & Nhạc nền BGM">
+            <span class="rail-ico">🔊</span>
+            <span class="rail-lbl">SFX 200</span>
+          </button>
+          <button class="rail-btn" data-tab="luts" title="200 Bộ màu điện ảnh LUT">
+            <span class="rail-ico">🎨</span>
+            <span class="rail-lbl">LUT 200</span>
+          </button>
+          <button class="rail-btn" data-tab="vfx" title="200 Hiệu ứng hình ảnh VFX">
+            <span class="rail-ico">✨</span>
+            <span class="rail-lbl">VFX 200</span>
+          </button>
+          <button class="rail-btn" data-tab="graphics" title="200 Thẻ Motion Graphic & CTA">
+            <span class="rail-ico">🧩</span>
+            <span class="rail-lbl">Graphic 200</span>
+          </button>
+          <button class="rail-btn" data-tab="text" title="200 Kiểu Chữ Nổi & Phụ Đề AI">
+            <span class="rail-ico">Aa</span>
+            <span class="rail-lbl">Chữ 200</span>
+          </button>
+          <button class="rail-btn" data-tab="fonts" title="200 Font Chữ Chuẩn Tiếng Việt">
+            <span class="rail-ico">🔤</span>
+            <span class="rail-lbl">Font 200</span>
+          </button>
+          <button class="rail-btn" data-tab="transitions" title="20 Hiệu ứng chuyển cảnh giữa các shot">
+            <span class="rail-ico">🔀</span>
+            <span class="rail-lbl">Chuyển 20</span>
+          </button>
+          <button class="rail-btn" data-tab="tools" title="Công cụ AI Whisper, Slow-Mo & Keyframe">
+            <span class="rail-ico">🛠️</span>
+            <span class="rail-lbl">Công cụ</span>
+          </button>
+        </nav>
+
+        <section class="library-drawer">
+          <div class="drawer-header">
+            <div class="drawer-title-row">
+              <h2 id="drawer-title">Quản Lý Tài Nguyên</h2>
+              <span id="drawer-count-badge" class="meta-pill">0</span>
+            </div>
+            <input id="library-search" class="search-input" type="search" placeholder="Tìm nhanh trong kho..." />
+            <div id="library-subfilters" class="subfilter-pills"></div>
+          </div>
+          <div id="library-content" class="drawer-body"></div>
+        </section>
+      </aside>
+
+      <!-- CENTER VIEWPORT -->
+      <section class="stage-section">
+        <div class="stage-top-meta">
+          <div class="stage-badges">
+            <span id="stage-ratio-badge" class="stage-pill">9:16 • 1080×1920</span>
+            <span id="stage-lut-badge" class="stage-pill muted">LUT: Mặc Định</span>
+            <span id="stage-vfx-badge" class="stage-pill muted hidden">VFX: 0</span>
+            <span id="stage-motion-badge" class="stage-pill muted hidden">1.0x • 100%</span>
+          </div>
+          <div class="stage-toggles">
+            <button class="btn-mini-toggle" id="btn-toggle-test-pattern" title="Bật/tắt khung cảnh thử màu LUT & VFX khi chưa có video">🧪 Thử Màu/VFX</button>
+            <button class="btn-mini-toggle" id="btn-toggle-safe" title="Hiện khung an toàn TikTok/Reels">📐 Safe Zone</button>
+            <button class="btn-mini-toggle" id="btn-toggle-guide" title="Hiện đường gióng 1/3">⊞ Lưới</button>
+          </div>
+        </div>
+
+        <div class="stage-viewport" id="stage-viewport">
+          <div class="stage-frame" id="stage-frame" data-ratio="9:16">
+            <div class="video-filter-wrap" id="video-filter-wrap">
+              <video id="main-video" preload="auto" playsinline></video>
+              <div id="test-pattern-layer" class="test-pattern-layer hidden">
+                <div class="tp-scene">
+                  <div class="tp-sun"></div>
+                  <div class="tp-mountain-back"></div>
+                  <div class="tp-mountain-front"></div>
+                  <div class="tp-skin-swatches">
+                    <span class="sw s1">Da sáng</span>
+                    <span class="sw s2">Ấm vàng</span>
+                    <span class="sw s3">Teal</span>
+                    <span class="sw s4">Neon</span>
+                  </div>
+                  <div class="tp-label">KHUNG THỬ MÀU LUT & VFX</div>
+                </div>
+              </div>
+            </div>
+
+            <video id="broll-video" class="broll-pip hidden" muted playsinline preload="auto"></video>
+
+            <!-- Empty dropzone shown when timeline has 0 shots and test-pattern is off -->
+            <div id="empty-stage-overlay" class="empty-stage-overlay">
+              <div class="empty-ico">🎬</div>
+              <div class="empty-title">Timeline Đang Trống</div>
+              <div class="empty-sub">Kéo thả video / nhạc / ảnh vào đây hoặc nạp từ Kho Tài Nguyên để bắt đầu cắt ghép.</div>
+              <div class="empty-btns">
+                <button class="btn-chip accent" id="btn-empty-upload">+ Tải Video / Media</button>
+                <button class="btn-chip" id="btn-empty-test-pattern">🧪 Thử 200 LUT & VFX ngay</button>
+              </div>
+            </div>
+
+            <!-- VFX & Fade & Transition Overlays -->
+            <div id="vfx-overlay-layer" class="vfx-overlay-layer"></div>
+            <div id="vignette-overlay" class="vignette-overlay"></div>
+            <div id="fade-overlay" class="fade-overlay"></div>
+            <div id="transition-overlay" class="transition-overlay"></div>
+
+            <!-- Guides -->
+            <div id="safe-zone-overlay" class="safe-zone-overlay hidden">
+              <div class="safe-top">An toàn trên</div>
+              <div class="safe-right">Khu nút Like/Cmt</div>
+              <div class="safe-bottom">An toàn mô tả dưới</div>
+            </div>
+            <div id="face-guide-overlay" class="face-guide-overlay hidden">
+              <div class="grid-v1"></div><div class="grid-v2"></div>
+              <div class="grid-h1"></div><div class="grid-h2"></div>
+            </div>
+
+            <!-- Interactive Stage Elements -->
+            <div id="stage-overlay" class="stage-overlay"></div>
+            <div id="subtitle-overlay" class="subtitle-overlay"></div>
+          </div>
+        </div>
+
+        <!-- TRANSPORT + NLE ACTION BAR -->
+        <div class="transport-bar">
+          <div class="transport-group">
+            <button class="t-btn" id="btn-seek-start" title="Về đầu (Home)">⏮</button>
+            <button class="t-btn play" id="btn-play" title="Phát / Tạm dừng (Space)">▶️</button>
+            <button class="t-btn" id="btn-seek-end" title="Tới cuối">⏭</button>
+            <span id="timecode-display" class="timecode">00:00.0 / 00:15.0</span>
+          </div>
+
+          <div class="transport-group">
+            <label class="speed-wrap" title="Tốc độ phát toàn cục">
+              <span>⚡</span>
+              <select id="speed-select" class="mini-select">
+                <option value="0.25">0.25x</option>
+                <option value="0.5">0.5x</option>
+                <option value="0.75">0.75x</option>
+                <option value="1" selected>1.0x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+                <option value="2">2.0x</option>
+                <option value="3">3.0x</option>
+              </select>
+            </label>
+            <button class="t-btn" id="btn-mute" title="Bật / Tắt tiếng">🔊</button>
+          </div>
+
+          <div class="transport-group nle-actions">
+            <button class="nle-btn" id="btn-split" title="Cắt đôi clip tại vị trí đầu phát (Phím S)">✂️ Cắt đôi</button>
+            <button class="nle-btn" id="btn-ripple-delete" title="Xóa clip đang chọn & khép khít khoảng trống">🧲 Xóa khép</button>
+            <button class="nle-btn" id="btn-quick-slowmo" title="Slow-Mo 0.5x nhanh hoặc mở chỉnh tốc độ">🐢 Slow-Mo</button>
+            <button class="nle-btn" id="btn-quick-fade" title="Thêm nhanh Fade In / Fade Out 0.5s">🌅 Fade</button>
+            <button class="nle-btn accent" id="btn-add-keyframe" title="Đặt điểm Keyframe tại đầu phát (Phím K)">💎 +Keyframe</button>
+            <button class="nle-btn" id="btn-duplicate" title="Nhân đôi phần tử đang chọn (Phím D)">⧉</button>
+            <button class="nle-btn danger" id="btn-delete-selected" title="Xóa phần tử đang chọn (Delete)">🗑️</button>
+            <button class="nle-btn danger" id="btn-clear-timeline" title="Xóa sạch toàn bộ cảnh & layer trên timeline">🧹 Xóa cảnh</button>
+            <button class="nle-btn" id="btn-snapshot" title="Chụp khung hình hiện tại ra ảnh PNG">📷</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- RIGHT INSPECTOR -->
+      <aside class="right-inspector">
+        <div class="inspector-tabs" id="inspector-tabs">
+          <button class="ins-tab active" data-itab="props">Thuộc tính</button>
+          <button class="ins-tab" data-itab="motion">💎 Keyframe</button>
+          <button class="ins-tab" data-itab="color">Chỉnh Màu</button>
+          <button class="ins-tab" data-itab="layers">Lớp</button>
+        </div>
+
+        <div class="inspector-body">
+          <div id="ins-panel-props" class="ins-panel active"></div>
+          <div id="ins-panel-motion" class="ins-panel"></div>
+          <div id="ins-panel-color" class="ins-panel"></div>
+          <div id="ins-panel-layers" class="ins-panel"></div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- BOTTOM 7-TRACK INTERACTIVE TIMELINE -->
+    <section class="timeline-dock">
+      <div class="timeline-toolbar">
+        <div class="tl-left-actions">
+          <button class="tl-add-btn vfx" data-add="vfx">+ VFX</button>
+          <button class="tl-add-btn txt" data-add="extraText">+ Chữ</button>
+          <button class="tl-add-btn gfx" data-add="graphics">+ Graphic</button>
+          <button class="tl-add-btn sub" data-add="subtitles">+ Phụ đề</button>
+          <button class="tl-add-btn broll" data-add="brolls">+ B-roll</button>
+          <button class="tl-add-btn aud" data-add="audio">+ SFX/Nhạc</button>
+        </div>
+        <div class="tl-right-controls">
+          <button class="btn-mini-toggle active" id="btn-snap" title="Hít nam châm khi kéo thả">🧲 Snap</button>
+          <span class="zoom-lbl">Thu phóng:</span>
+          <input id="timeline-zoom" type="range" min="14" max="120" value="40" />
+          <button class="btn-mini" id="btn-fit-timeline" title="Khớp toàn bộ thời lượng">Vừa khung</button>
+        </div>
+      </div>
+
+      <div class="timeline-container" id="timeline-container">
+        <div class="tl-track-labels" id="tl-track-labels">
+          <div class="tl-ruler-spacer">Thời gian</div>
+          <div class="tl-label" data-track="shots"><span class="dot c-video"></span>Video / Cảnh</div>
+          <div class="tl-label" data-track="vfx"><span class="dot c-vfx"></span>Hiệu ứng (VFX)</div>
+          <div class="tl-label" data-track="extraText"><span class="dot c-text"></span>Chữ thêm</div>
+          <div class="tl-label" data-track="graphics"><span class="dot c-gfx"></span>Graphic</div>
+          <div class="tl-label" data-track="subtitles"><span class="dot c-sub"></span>Phụ đề (Subs)</div>
+          <div class="tl-label" data-track="brolls"><span class="dot c-broll"></span>B-roll (PiP)</div>
+          <div class="tl-label" data-track="audio"><span class="dot c-aud"></span>Âm thanh / SFX</div>
+        </div>
+
+        <div class="tl-scroll-area" id="tl-scroll-area">
+          <div class="tl-canvas" id="tl-canvas">
+            <div class="tl-ruler" id="tl-ruler"></div>
+            <div class="tl-lanes" id="tl-lanes"></div>
+            <div class="tl-playhead" id="tl-playhead">
+              <div class="playhead-cap"></div>
+              <div class="playhead-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- HIDDEN FILE INPUT FOR INSTANT DROP / BROWSE -->
+  <input type="file" id="hidden-file-input" multiple accept="video/*,audio/*,image/*" class="hidden" />
+
+  <!-- MODAL: STORYBOARD -->
+  <div id="modal-storyboard" class="modal hidden">
+    <div class="modal-card wide">
+      <div class="modal-head">
+        <h3>🎬 Kịch Bản Phân Cảnh (Storyboard)</h3>
+        <button class="modal-close" data-close="modal-storyboard">✕</button>
+      </div>
+      <div class="modal-body" id="storyboard-body"></div>
+      <div class="modal-foot">
+        <button class="btn-chip" id="btn-sb-add-shot">+ Thêm cảnh mới</button>
+        <button class="btn-chip" id="btn-sb-copy-json">📋 Copy JSON</button>
+        <button class="btn-chip success" data-close="modal-storyboard">Xong</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: BRAND COLORS -->
+  <div id="modal-brand" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3>🎨 Bảng Màu Thương Hiệu</h3>
+        <button class="modal-close" data-close="modal-brand">✕</button>
+      </div>
+      <div class="modal-body" id="brand-body"></div>
+      <div class="modal-foot">
+        <button class="btn-chip accent" id="btn-apply-brand">✨ Áp dụng vào mọi Graphic & Chữ</button>
+        <button class="btn-chip" data-close="modal-brand">Đóng</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: IMPORT MEDIA / URL -->
+  <div id="modal-import" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3>➕ Nạp Tài Nguyên Video / Nhạc / Hình Ảnh</h3>
+        <button class="modal-close" data-close="modal-import">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="drop-zone" id="import-drop-zone">
+          <div class="drop-ico">📂</div>
+          <div class="drop-title">Kéo & Thả Video, Nhạc SFX hoặc Hình ảnh vào đây</div>
+          <div class="drop-sub">Hỗ trợ MP4, MOV, WebM, WAV, MP3, PNG, JPG (Upload nhiều file cùng lúc)</div>
+          <div class="drop-actions">
+            <label class="radio-pill"><input type="radio" name="upload-mode" value="append" checked /> Lưu kho & Nối vào Timeline</label>
+            <label class="radio-pill"><input type="radio" name="upload-mode" value="replace" /> Đặt làm Video Chính</label>
+            <label class="radio-pill"><input type="radio" name="upload-mode" value="pool" /> Chỉ lưu vào Kho</label>
+          </div>
+          <button class="btn-chip accent" id="btn-browse-files">Chọn File từ Máy</button>
+        </div>
+
+        <div class="url-import-box">
+          <label class="field-lbl">Hoặc tải Video từ TikTok / YouTube / Link trực tiếp (yt-dlp)</label>
+          <div class="url-row">
+            <input id="import-url-input" class="field-input" type="url" placeholder="https://www.tiktok.com/... hoặc https://youtu.be/..." />
+            <button class="btn-chip success" id="btn-import-url-go">⬇️ Tải về Studio</button>
+          </div>
+          <div id="import-status" class="status-text"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: HISTORY -->
+  <div id="modal-history" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3>🕒 Lịch Sử Phiên Bản Dự Án</h3>
+        <button class="modal-close" data-close="modal-history">✕</button>
+      </div>
+      <div class="modal-body" id="history-body"></div>
+    </div>
+  </div>
+
+  <!-- MODAL: EXPORT PROGRESS & RESULT -->
+  <div id="modal-export" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3>🚀 Xuất Video Thành Phẩm (FFmpeg Pro)</h3>
+        <button class="modal-close" data-close="modal-export">✕</button>
+      </div>
+      <div class="modal-body" id="export-body"></div>
+    </div>
+  </div>
+
+  <div id="toast-container" class="toast-container"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

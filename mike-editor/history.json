@@ -1,0 +1,630 @@
+[
+  {
+    "id": "snap-1794645105488",
+    "timestamp": "2026-11-14T08:31:45.488Z",
+    "label": "Xóa phần tử",
+    "snapshot": {
+      "version": 4,
+      "name": "Dự án mới — Mike Editor Pro 4.0",
+      "themeMode": "dark",
+      "aspectRatio": "9:16",
+      "playbackRate": 1,
+      "brandColors": {
+        "primary": "#38bdf8",
+        "secondary": "#a855f7",
+        "accent": "#f59e0b",
+        "bg": "#0f172a",
+        "text": "#f8fafc"
+      },
+      "video": {
+        "src": "",
+        "title": "Chưa có video",
+        "duration": 15,
+        "trimStart": 0,
+        "trimEnd": 15,
+        "volume": 1
+      },
+      "colorGrade": {
+        "lut": "camera-log-17",
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "vignette": 0,
+        "sharpen": 0,
+        "blur": 0
+      },
+      "activeFilters": [],
+      "mediaPool": [],
+      "shots": [],
+      "elements": {
+        "vfx": [],
+        "extraText": [],
+        "graphics": [],
+        "subtitles": [],
+        "brolls": [],
+        "audio": []
+      }
+    }
+  },
+  {
+    "id": "snap-1794645089042",
+    "timestamp": "2026-11-14T08:31:29.042Z",
+    "label": "LUT: Leica L-Log Sang Trọng",
+    "snapshot": {
+      "version": 4,
+      "name": "Dự án mới — Mike Editor Pro 4.0",
+      "themeMode": "dark",
+      "aspectRatio": "9:16",
+      "playbackRate": 1,
+      "brandColors": {
+        "primary": "#38bdf8",
+        "secondary": "#a855f7",
+        "accent": "#f59e0b",
+        "bg": "#0f172a",
+        "text": "#f8fafc"
+      },
+      "video": {
+        "src": "",
+        "title": "Chưa có video",
+        "duration": 15,
+        "trimStart": 0,
+        "trimEnd": 15,
+        "volume": 1
+      },
+      "colorGrade": {
+        "lut": "camera-log-17",
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "vignette": 0,
+        "sharpen": 0,
+        "blur": 0
+      },
+      "activeFilters": [],
+      "mediaPool": [],
+      "shots": [],
+      "elements": {
+        "vfx": [],
+        "extraText": [],
+        "graphics": [],
+        "subtitles": [],
+        "brolls": [],
+        "audio": []
+      }
+    }
+  },
+  {
+    "id": "snap-1794645084971",
+    "timestamp": "2026-11-14T08:31:24.971Z",
+    "label": "LUT: Sony S-Cinetone Da Đẹp",
+    "snapshot": {
+      "version": 4,
+      "name": "Dự án mới — Mike Editor Pro 4.0",
+      "themeMode": "dark",
+      "aspectRatio": "9:16",
+      "playbackRate": 1,
+      "brandColors": {
+        "primary": "#38bdf8",
+        "secondary": "#a855f7",
+        "accent": "#f59e0b",
+        "bg": "#0f172a",
+        "text": "#f8fafc"
+      },
+      "video": {
+        "src": "",
+        "title": "Chưa có video",
+        "duration": 15,
+        "trimStart": 0,
+        "trimEnd": 15,
+        "volume": 1
+      },
+      "colorGrade": {
+        "lut": "camera-log-04",
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "vignette": 0,
+        "sharpen": 0,
+        "blur": 0
+      },
+      "activeFilters": [],
+      "mediaPool": [],
+      "shots": [],
+      "elements": {
+        "vfx": [],
+        "extraText": [],
+        "graphics": [],
+        "subtitles": [],
+        "brolls": [],
+        "audio": []
+      }
+    }
+  },
+  {
+    "id": "snap-1794645083057",
+    "timestamp": "2026-11-14T08:31:23.057Z",
+    "label": "LUT: ARRI LogC3 Chuẩn Rec709",
+    "snapshot": {
+      "version": 4,
+      "name": "Dự án mới — Mike Editor Pro 4.0",
+      "themeMode": "dark",
+      "aspectRatio": "9:16",
+      "playbackRate": 1,
+      "brandColors": {
+        "primary": "#38bdf8",
+        "secondary": "#a855f7",
+        "accent": "#f59e0b",
+        "bg": "#0f172a",
+        "text": "#f8fafc"
+      },
+      "video": {
+        "src": "",
+        "title": "Chưa có video",
+        "duration": 15,
+        "trimStart": 0,
+        "trimEnd": 15,
+        "volume": 1
+      },
+      "colorGrade": {
+        "lut": "camera-log-01",
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "vignette": 0,
+        "sharpen": 0,
+        "blur": 0
+      },
+      "activeFilters": [],
+      "mediaPool": [],
+      "shots": [],
+      "elements": {
+        "vfx": [],
+        "extraText": [],
+        "graphics": [],
+        "subtitles": [],
+        "brolls": [],
+        "audio": []
+      }
+    }
+  },
+  {
+    "id": "snap-1794645081985",
+    "timestamp": "2026-11-14T08:31:21.986Z",
+    "label": "LUT: Fuji Nostalgic Neg",
+    "snapshot": {
+      "version": 4,
+      "name": "Dự án mới — Mike Editor Pro 4.0",
+      "themeMode": "dark",
+      "aspectRatio": "9:16",
+      "playbackRate": 1,
+      "brandColors": {
+        "primary": "#38bdf8",
+        "secondary": "#a855f7",
+        "accent": "#f59e0b",
+        "bg": "#0f172a",
+        "text": "#f8fafc"
+      },
+      "video": {
+        "src": "",
+        "title": "Chưa có video",
+        "duration": 15,
+        "trimStart": 0,
+        "trimEnd": 15,
+        "volume": 1
+      },
+      "colorGrade": {
+        "lut": "kodak-fuji-16",
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "vignette": 0,
+        "sharpen": 0,
+        "blur": 0
+      },
+      "activeFilters": [],
+      "mediaPool": [],
+      "shots": [],
+      "elements": {
+        "vfx": [],
+        "extraText": [],
+        "graphics": [],
+        "subtitles": [],
+        "brolls": [],
+        "audio": []
+      }
+    }
+  },
+  {
+    "id": "snap-1794645080971",
+    "timestamp": "2026-11-14T08:31:20.971Z",
+    "label": "LUT: Cinestill 800T Đêm Đèn",
+    "snapshot": {
+      "version": 4,
+      "name": "Dự án mới — Mike Editor Pro 4.0",
+      "themeMode": "dark",
+      "aspectRatio": "9:16",
+      "playbackRate": 1,
+      "brandColors": {
+        "primary": "#38bdf8",
+        "secondary": "#a855f7",
+        "accent": "#f59e0b",
+        "bg": "#0f172a",
+        "text": "#f8fafc"
+      },
+      "video": {
+        "src": "",
+        "title": "Chưa có video",
+        "duration": 15,
+        "trimStart": 0,
+        "trimEnd": 15,
+        "volume": 1
+      },
+      "colorGrade": {
+        "lut": "kodak-fuji-06",
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "vignette": 0,
+        "sharpen": 0,
+        "blur": 0
+      },
+      "activeFilters": [],
+      "mediaPool": [],
+      "shots": [],
+      "elements": {
+        "vfx": [],
+        "extraText": [],
+        "graphics": [],
+        "subtitles": [],
+        "brolls": [],
+        "audio": []
+      }
+    }
+  },
+  {
+    "id": "snap-1794645080193",
+    "timestamp": "2026-11-14T08:31:20.193Z",
+    "label": "LUT: Kodak Portra 800 Da Mịn",
+    "snapshot": {
+      "version": 4,
+      "name": "Dự án mới — Mike Editor Pro 4.0",
+      "themeMode": "dark",
+      "aspectRatio": "9:16",
+      "playbackRate": 1,
+      "brandColors": {
+        "primary": "#38bdf8",
+        "secondary": "#a855f7",
+        "accent": "#f59e0b",
+        "bg": "#0f172a",
+        "text": "#f8fafc"
+      },
+      "video": {
+        "src": "",
+        "title": "Chưa có video",
+        "duration": 15,
+        "trimStart": 0,
+        "trimEnd": 15,
+        "volume": 1
+      },
+      "colorGrade": {
+        "lut": "kodak-fuji-02",
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "vignette": 0,
+        "sharpen": 0,
+        "blur": 0
+      },
+      "activeFilters": [],
+      "mediaPool": [],
+      "shots": [],
+      "elements": {
+        "vfx": [],
+        "extraText": [],
+        "graphics": [],
+        "subtitles": [],
+        "brolls": [],
+        "audio": []
+      }
+    }
+  },
+  {
+    "id": "snap-1794645079631",
+    "timestamp": "2026-11-14T08:31:19.631Z",
+    "label": "LUT: Kodak Portra 400 Chuẩn",
+    "snapshot": {
+      "version": 4,
+      "name": "Dự án mới — Mike Editor Pro 4.0",
+      "themeMode": "dark",
+      "aspectRatio": "9:16",
+      "playbackRate": 1,
+      "brandColors": {
+        "primary": "#38bdf8",
+        "secondary": "#a855f7",
+        "accent": "#f59e0b",
+        "bg": "#0f172a",
+        "text": "#f8fafc"
+      },
+      "video": {
+        "src": "",
+        "title": "Chưa có video",
+        "duration": 15,
+        "trimStart": 0,
+        "trimEnd": 15,
+        "volume": 1
+      },
+      "colorGrade": {
+        "lut": "kodak-fuji-01",
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "vignette": 0,
+        "sharpen": 0,
+        "blur": 0
+      },
+      "activeFilters": [],
+      "mediaPool": [],
+      "shots": [],
+      "elements": {
+        "vfx": [],
+        "extraText": [],
+        "graphics": [],
+        "subtitles": [],
+        "brolls": [],
+        "audio": []
+      }
+    }
+  },
+  {
+    "id": "snap-1794645078921",
+    "timestamp": "2026-11-14T08:31:18.921Z",
+    "label": "LUT: Inception Xám Bạc",
+    "snapshot": {
+      "version": 4,
+      "name": "Dự án mới — Mike Editor Pro 4.0",
+      "themeMode": "dark",
+      "aspectRatio": "9:16",
+      "playbackRate": 1,
+      "brandColors": {
+        "primary": "#38bdf8",
+        "secondary": "#a855f7",
+        "accent": "#f59e0b",
+        "bg": "#0f172a",
+        "text": "#f8fafc"
+      },
+      "video": {
+        "src": "",
+        "title": "Chưa có video",
+        "duration": 15,
+        "trimStart": 0,
+        "trimEnd": 15,
+        "volume": 1
+      },
+      "colorGrade": {
+        "lut": "hollywood-25",
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "vignette": 0,
+        "sharpen": 0,
+        "blur": 0
+      },
+      "activeFilters": [],
+      "mediaPool": [],
+      "shots": [],
+      "elements": {
+        "vfx": [],
+        "extraText": [],
+        "graphics": [],
+        "subtitles": [],
+        "brolls": [],
+        "audio": []
+      }
+    }
+  },
+  {
+    "id": "snap-1794645039238",
+    "timestamp": "2026-11-14T08:30:39.238Z",
+    "label": "Dự án trống mới (Clean Slate)",
+    "snapshot": {
+      "version": 4,
+      "name": "Dự án mới — Mike Editor Pro 4.0",
+      "themeMode": "dark",
+      "aspectRatio": "9:16",
+      "playbackRate": 1,
+      "brandColors": {
+        "primary": "#38bdf8",
+        "secondary": "#a855f7",
+        "accent": "#f59e0b",
+        "bg": "#0f172a",
+        "text": "#f8fafc"
+      },
+      "video": {
+        "src": "",
+        "title": "Chưa có video",
+        "duration": 15,
+        "trimStart": 0,
+        "trimEnd": 15,
+        "volume": 1
+      },
+      "colorGrade": {
+        "lut": "none",
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "vignette": 0,
+        "sharpen": 0,
+        "blur": 0
+      },
+      "activeFilters": [],
+      "mediaPool": [],
+      "shots": [],
+      "elements": {
+        "vfx": [],
+        "extraText": [],
+        "graphics": [],
+        "subtitles": [],
+        "brolls": [],
+        "audio": []
+      }
+    }
+  },
+  {
+    "id": "snap-1794645024514",
+    "timestamp": "2026-11-14T08:30:24.514Z",
+    "label": "Đặt Keyframe",
+    "snapshot": {
+      "version": 4,
+      "name": "Dự án mới — Mike Editor Pro 4.0",
+      "themeMode": "dark",
+      "aspectRatio": "9:16",
+      "playbackRate": 1,
+      "brandColors": {
+        "primary": "#38bdf8",
+        "secondary": "#a855f7",
+        "accent": "#f59e0b",
+        "bg": "#0f172a",
+        "text": "#f8fafc"
+      },
+      "video": {
+        "src": "",
+        "title": "Chưa có video",
+        "duration": 15,
+        "trimStart": 0,
+        "trimEnd": 15,
+        "volume": 1
+      },
+      "colorGrade": {
+        "lut": "hollywood-01",
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "vignette": 0,
+        "sharpen": 0,
+        "blur": 0
+      },
+      "activeFilters": [
+        "glitch-rgb"
+      ],
+      "mediaPool": [],
+      "shots": [],
+      "elements": {
+        "vfx": [],
+        "extraText": [
+          {
+            "id": "txt-1794645021983",
+            "text": "BÍ QUYẾT TRIỆU VIEW",
+            "start": 0,
+            "end": 3.5,
+            "x": 50,
+            "y": 24,
+            "fontSize": 22,
+            "fontFamily": "'Be Vietnam Pro', sans-serif",
+            "fontWeight": 300,
+            "letterSpacing": "0px",
+            "textColor": "#111827",
+            "strokeColor": "transparent",
+            "bgColor": "#facc15",
+            "uppercase": true,
+            "bgHighlight": true,
+            "styleId": "txt-viral-short-01",
+            "scale": 100,
+            "rotation": 0,
+            "opacity": 1,
+            "fadeIn": 0.2,
+            "fadeOut": 0.2,
+            "keyframes": [
+              {
+                "id": "kf-1794645024165",
+                "offset": 0,
+                "scale": 100,
+                "x": 50,
+                "y": 24,
+                "rotation": 0,
+                "opacity": 0,
+                "volume": 1,
+                "easing": "easeInOut"
+              }
+            ],
+            "fontStyle": "normal"
+          }
+        ],
+        "graphics": [],
+        "subtitles": [],
+        "brolls": [],
+        "audio": []
+      }
+    }
+  },
+  {
+    "id": "snap-1794645018983",
+    "timestamp": "2026-11-14T08:30:18.983Z",
+    "label": "LUT: Teal & Orange Bom Tấn",
+    "snapshot": {
+      "version": 4,
+      "name": "Dự án mới — Mike Editor Pro 4.0",
+      "themeMode": "dark",
+      "aspectRatio": "9:16",
+      "playbackRate": 1,
+      "brandColors": {
+        "primary": "#38bdf8",
+        "secondary": "#a855f7",
+        "accent": "#f59e0b",
+        "bg": "#0f172a",
+        "text": "#f8fafc"
+      },
+      "video": {
+        "src": "",
+        "title": "Chưa có video",
+        "duration": 15,
+        "trimStart": 0,
+        "trimEnd": 15,
+        "volume": 1
+      },
+      "colorGrade": {
+        "lut": "hollywood-01",
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "vignette": 0,
+        "sharpen": 0,
+        "blur": 0
+      },
+      "activeFilters": [],
+      "mediaPool": [],
+      "shots": [],
+      "elements": {
+        "vfx": [],
+        "extraText": [],
+        "graphics": [],
+        "subtitles": [],
+        "brolls": [],
+        "audio": []
+      }
+    }
+  }
+]

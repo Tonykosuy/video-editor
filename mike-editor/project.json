@@ -1,0 +1,44 @@
+{
+  "version": 4,
+  "name": "Dự án mới — Mike Editor Pro 4.0",
+  "themeMode": "dark",
+  "aspectRatio": "9:16",
+  "playbackRate": 1,
+  "brandColors": {
+    "primary": "#38bdf8",
+    "secondary": "#a855f7",
+    "accent": "#f59e0b",
+    "bg": "#0f172a",
+    "text": "#f8fafc"
+  },
+  "video": {
+    "src": "",
+    "title": "Chưa có video",
+    "duration": 15,
+    "trimStart": 0,
+    "trimEnd": 15,
+    "volume": 1
+  },
+  "colorGrade": {
+    "lut": "camera-log-17",
+    "brightness": 0,
+    "contrast": 0,
+    "saturation": 0,
+    "temperature": 0,
+    "tint": 0,
+    "vignette": 0,
+    "sharpen": 0,
+    "blur": 0
+  },
+  "activeFilters": [],
+  "mediaPool": [],
+  "shots": [],
+  "elements": {
+    "vfx": [],
+    "extraText": [],
+    "graphics": [],
+    "subtitles": [],
+    "brolls": [],
+    "audio": []
+  }
+}

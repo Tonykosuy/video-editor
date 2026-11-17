@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "historyId": "51f52c2e-6b0b-4589-aee4-99d72fc59d0f",
+  "currentRevision": "d98a8924-803b-4f23-8df6-f2096e6e2b9d",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a",
+      "content": "C:\\Users\\ad\\.cache\\hyperframes\\history\\51f52c2e-6b0b-4589-aee4-99d72fc59d0f\\blobs\\26\\268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a"
+    },
+    "CLAUDE.md": {
+      "hash": "268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a",
+      "content": "C:\\Users\\ad\\.cache\\hyperframes\\history\\51f52c2e-6b0b-4589-aee4-99d72fc59d0f\\blobs\\26\\268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a"
+    },
+    "assets/bgm.mp3": {
+      "hash": "b2313adde4c8046b5e325c2405a58d2c41dc29396ad724b57ffc85d714e22bda",
+      "content": "C:\\Users\\ad\\.cache\\hyperframes\\history\\51f52c2e-6b0b-4589-aee4-99d72fc59d0f\\blobs\\b2\\b2313adde4c8046b5e325c2405a58d2c41dc29396ad724b57ffc85d714e22bda"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "C:\\Users\\ad\\.cache\\hyperframes\\history\\51f52c2e-6b0b-4589-aee4-99d72fc59d0f\\blobs\\53\\53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "0d1327af64a591913dd3d98f40f78f068915067d4a62cc54fa6a590acb3aa9a4",
+      "content": "C:\\Users\\ad\\.cache\\hyperframes\\history\\51f52c2e-6b0b-4589-aee4-99d72fc59d0f\\blobs\\0d\\0d1327af64a591913dd3d98f40f78f068915067d4a62cc54fa6a590acb3aa9a4"
+    },
+    "meta.json": {
+      "hash": "2112b534edd113f875b6443e0e9e461f1cab9b2c0fb0850429162498467d6164",
+      "content": "C:\\Users\\ad\\.cache\\hyperframes\\history\\51f52c2e-6b0b-4589-aee4-99d72fc59d0f\\blobs\\21\\2112b534edd113f875b6443e0e9e461f1cab9b2c0fb0850429162498467d6164"
+    },
+    "package.json": {
+      "hash": "2021ae037f839ce407cefd9696848cd03204d979c28744e927013e99888d94e7",
+      "content": "C:\\Users\\ad\\.cache\\hyperframes\\history\\51f52c2e-6b0b-4589-aee4-99d72fc59d0f\\blobs\\20\\2021ae037f839ce407cefd9696848cd03204d979c28744e927013e99888d94e7"
+    }
+  },
+  "revisions": {
+    "d98a8924-803b-4f23-8df6-f2096e6e2b9d": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794641379347,
+      "endedAt": 1794641379349,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\ad\\.cache\\hyperframes\\history\\51f52c2e-6b0b-4589-aee4-99d72fc59d0f\\blobs\\2f\\2f2a10c102a02ceb3b867de236a34ac806a84d0e39910910b1414f14317be040",
+          "after": "C:\\Users\\ad\\.cache\\hyperframes\\history\\51f52c2e-6b0b-4589-aee4-99d72fc59d0f\\blobs\\0d\\0d1327af64a591913dd3d98f40f78f068915067d4a62cc54fa6a590acb3aa9a4"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "d98a8924-803b-4f23-8df6-f2096e6e2b9d",
+      "id": "cf3874d6-8310-4648-8561-b6f5f0e1f23f"
+    },
+    "revisions": {
+      "d98a8924-803b-4f23-8df6-f2096e6e2b9d": [
+        {
+          "id": "cf3874d6-8310-4648-8561-b6f5f0e1f23f",
+          "scope": "project",
+          "report": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\hcm-intro\\.hyperframes\\artifacts\\checks\\cf3874d6-8310-4648-8561-b6f5f0e1f23f.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794641383998,
+          "contentHash": "253a25c7d6f8e8709dccb7149f970dc98df32d040ab521bee2a096265edb7ea3",
+          "revision": "d98a8924-803b-4f23-8df6-f2096e6e2b9d",
+          "inputFingerprint": "c94c776469678888f67d1a3c87197e7949a13cf08098c44e6edff9c72195c9a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "2cf283af-31cf-4eee-a013-6d31e16f5acd",
+        "scope": "project",
+        "report": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\hcm-intro\\.hyperframes\\artifacts\\checks\\2cf283af-31cf-4eee-a013-6d31e16f5acd.json",
+        "metadata": {
+          "ok": false,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794641331544,
+        "contentHash": "e101bac27c6cd5df80ae2109fe010937c2a5a651090b8ef364dbb016cfffe46f",
+        "revision": null,
+        "inputFingerprint": "2e3195f00c55003d9c31a8be1cb78b22da22895d73658f68c752d94d0c874e39",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "d98a8924-803b-4f23-8df6-f2096e6e2b9d",
+      "id": "669c58bb-cbb8-4f08-86f8-cc669dc12168-4"
+    },
+    "revisions": {
+      "d98a8924-803b-4f23-8df6-f2096e6e2b9d": [
+        {
+          "scope": "full",
+          "id": "669c58bb-cbb8-4f08-86f8-cc669dc12168-0",
+          "image": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\hcm-intro\\.hyperframes\\artifacts\\snapshots\\9fbe306e-04ca-4455-bc4c-269ba1bf4a69\\frame-00-at-0s.png",
+          "time": 0,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794641387997,
+          "contentHash": "6367e9035d887cff7ae08534b8ead20a5547a4920ef3bf7be4a1ecbe106e5921",
+          "revision": "d98a8924-803b-4f23-8df6-f2096e6e2b9d",
+          "inputFingerprint": "c94c776469678888f67d1a3c87197e7949a13cf08098c44e6edff9c72195c9a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "669c58bb-cbb8-4f08-86f8-cc669dc12168-1",
+          "image": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\hcm-intro\\.hyperframes\\artifacts\\snapshots\\9fbe306e-04ca-4455-bc4c-269ba1bf4a69\\frame-01-at-1.5s.png",
+          "time": 1.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794641387998,
+          "contentHash": "8da86f43a723a53d1a3cab495ab03363458bf6121ba7d567ae54d00dcfcb83b0",
+          "revision": "d98a8924-803b-4f23-8df6-f2096e6e2b9d",
+          "inputFingerprint": "c94c776469678888f67d1a3c87197e7949a13cf08098c44e6edff9c72195c9a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "669c58bb-cbb8-4f08-86f8-cc669dc12168-2",
+          "image": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\hcm-intro\\.hyperframes\\artifacts\\snapshots\\9fbe306e-04ca-4455-bc4c-269ba1bf4a69\\frame-02-at-5s.png",
+          "time": 5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794641387998,
+          "contentHash": "b9770d12f62eaf419b98d1546dfd127f49996ca68cbcf35621f9f8c722b36952",
+          "revision": "d98a8924-803b-4f23-8df6-f2096e6e2b9d",
+          "inputFingerprint": "c94c776469678888f67d1a3c87197e7949a13cf08098c44e6edff9c72195c9a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "669c58bb-cbb8-4f08-86f8-cc669dc12168-3",
+          "image": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\hcm-intro\\.hyperframes\\artifacts\\snapshots\\9fbe306e-04ca-4455-bc4c-269ba1bf4a69\\frame-03-at-8.5s.png",
+          "time": 8.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794641387998,
+          "contentHash": "9248e701bb2a7494acbfb36275d802cde7e1d910dafe0bed990a4f16d0aa5203",
+          "revision": "d98a8924-803b-4f23-8df6-f2096e6e2b9d",
+          "inputFingerprint": "c94c776469678888f67d1a3c87197e7949a13cf08098c44e6edff9c72195c9a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "669c58bb-cbb8-4f08-86f8-cc669dc12168-4",
+          "image": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\hcm-intro\\.hyperframes\\artifacts\\snapshots\\9fbe306e-04ca-4455-bc4c-269ba1bf4a69\\frame-04-at-9.75s.png",
+          "time": 9.75,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794641387998,
+          "contentHash": "9248e701bb2a7494acbfb36275d802cde7e1d910dafe0bed990a4f16d0aa5203",
+          "revision": "d98a8924-803b-4f23-8df6-f2096e6e2b9d",
+          "inputFingerprint": "c94c776469678888f67d1a3c87197e7949a13cf08098c44e6edff9c72195c9a4",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "054a082d-4933-46a4-b1b1-4dca70437824-0",
+        "image": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\hcm-intro\\.hyperframes\\artifacts\\snapshots\\542f2193-21f3-4ef1-ae65-12b2dea02bed\\frame-00-at-1.5s.png",
+        "time": 1.5,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794641335241,
+        "contentHash": "437a60c7527f103bb0ae6eb84b7475b280cb9b6bee9fde7e4432b9359242513e",
+        "revision": null,
+        "inputFingerprint": "2e3195f00c55003d9c31a8be1cb78b22da22895d73658f68c752d94d0c874e39",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "054a082d-4933-46a4-b1b1-4dca70437824-1",
+        "image": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\hcm-intro\\.hyperframes\\artifacts\\snapshots\\542f2193-21f3-4ef1-ae65-12b2dea02bed\\frame-01-at-5s.png",
+        "time": 5,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794641335241,
+        "contentHash": "a14f3c5c320f7ea056e9863059d786bf240a50b6c310aa2bc8b1c3f2a8298073",
+        "revision": null,
+        "inputFingerprint": "2e3195f00c55003d9c31a8be1cb78b22da22895d73658f68c752d94d0c874e39",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "054a082d-4933-46a4-b1b1-4dca70437824-2",
+        "image": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\hcm-intro\\.hyperframes\\artifacts\\snapshots\\542f2193-21f3-4ef1-ae65-12b2dea02bed\\frame-02-at-8.5s.png",
+        "time": 8.5,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794641335241,
+        "contentHash": "ed7ee0f47e18666e2f61cd314ad2efb575e440120dbe4e541894f44310fef0e1",
+        "revision": null,
+        "inputFingerprint": "2e3195f00c55003d9c31a8be1cb78b22da22895d73658f68c752d94d0c874e39",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "054a082d-4933-46a4-b1b1-4dca70437824-3",
+        "image": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\hcm-intro\\.hyperframes\\artifacts\\snapshots\\542f2193-21f3-4ef1-ae65-12b2dea02bed\\frame-03-at-9.75s.png",
+        "time": 9.75,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794641335241,
+        "contentHash": "ed7ee0f47e18666e2f61cd314ad2efb575e440120dbe4e541894f44310fef0e1",
+        "revision": null,
+        "inputFingerprint": "2e3195f00c55003d9c31a8be1cb78b22da22895d73658f68c752d94d0c874e39",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "renders": {
+    "latest": {
+      "id": "a5fc2d97-7a5f-4a9f-81c7-bec987f5eb0b",
+      "completedAt": 1794641429828,
+      "output": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\hcm_intro_10s.mp4",
+      "status": "completed",
+      "revision": "d98a8924-803b-4f23-8df6-f2096e6e2b9d"
+    },
+    "retainedRevisions": [
+      "d98a8924-803b-4f23-8df6-f2096e6e2b9d"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

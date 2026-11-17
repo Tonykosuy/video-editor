@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "historyId": "610325d8-7513-4099-a70a-eb209b8287a7",
+  "currentRevision": "d8088053-77db-4f56-81c9-ecacc989cdf2",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a",
+      "content": "C:\\Users\\ad\\.cache\\hyperframes\\history\\610325d8-7513-4099-a70a-eb209b8287a7\\blobs\\26\\268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a"
+    },
+    "CLAUDE.md": {
+      "hash": "268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a",
+      "content": "C:\\Users\\ad\\.cache\\hyperframes\\history\\610325d8-7513-4099-a70a-eb209b8287a7\\blobs\\26\\268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "C:\\Users\\ad\\.cache\\hyperframes\\history\\610325d8-7513-4099-a70a-eb209b8287a7\\blobs\\53\\53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "da1765f52842fe3400d584672ad5f6fd11b1945add5480ea24ad5e5f9ffbb03a",
+      "content": "C:\\Users\\ad\\.cache\\hyperframes\\history\\610325d8-7513-4099-a70a-eb209b8287a7\\blobs\\da\\da1765f52842fe3400d584672ad5f6fd11b1945add5480ea24ad5e5f9ffbb03a"
+    },
+    "meta.json": {
+      "hash": "1f029a53e8345c2c774dda07a0586941c7f9bd27809ad28a2600ca9a0e6269fb",
+      "content": "C:\\Users\\ad\\.cache\\hyperframes\\history\\610325d8-7513-4099-a70a-eb209b8287a7\\blobs\\1f\\1f029a53e8345c2c774dda07a0586941c7f9bd27809ad28a2600ca9a0e6269fb"
+    },
+    "package.json": {
+      "hash": "77235792a349cfb57fa3ca5c54ed370a75ce8d7ca15731fa9843741f9e3e2fda",
+      "content": "C:\\Users\\ad\\.cache\\hyperframes\\history\\610325d8-7513-4099-a70a-eb209b8287a7\\blobs\\77\\77235792a349cfb57fa3ca5c54ed370a75ce8d7ca15731fa9843741f9e3e2fda"
+    }
+  },
+  "revisions": {
+    "d8088053-77db-4f56-81c9-ecacc989cdf2": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794640965951,
+      "endedAt": 1794640965953,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\ad\\.cache\\hyperframes\\history\\610325d8-7513-4099-a70a-eb209b8287a7\\blobs\\bb\\bb26a8f483c4b8ed34f95e1a3fd8bd97e06440351dcb1c24c71d2abdbb1a1d15",
+          "after": "C:\\Users\\ad\\.cache\\hyperframes\\history\\610325d8-7513-4099-a70a-eb209b8287a7\\blobs\\da\\da1765f52842fe3400d584672ad5f6fd11b1945add5480ea24ad5e5f9ffbb03a"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "19ddb4f3-1992-4993-9c5a-1f337feb4868"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "19ddb4f3-1992-4993-9c5a-1f337feb4868",
+        "scope": "project",
+        "report": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\hyperframes-demo\\.hyperframes\\artifacts\\checks\\19ddb4f3-1992-4993-9c5a-1f337feb4868.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794640907244,
+        "contentHash": "b519d8eeb9db8cfc3469d26082451a075e109f3a5888c09590f2d38bcafcdcb4",
+        "revision": null,
+        "inputFingerprint": "e0892ce79ea059b0e8f2df998e656b3d06e13a942c054925db1d7fd6e34a043b",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "9aada258-51bd-45fe-861a-e3dd9d57cae9",
+      "completedAt": 1794641019584,
+      "output": "C:\\Users\\ad\\.gemini\\antigravity\\scratch\\video-editor\\test_hyperframes.mp4",
+      "status": "completed",
+      "revision": "d8088053-77db-4f56-81c9-ecacc989cdf2"
+    },
+    "retainedRevisions": [
+      "d8088053-77db-4f56-81c9-ecacc989cdf2"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
